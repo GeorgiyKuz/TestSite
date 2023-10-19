@@ -4,18 +4,33 @@ const getSymbol = (s, num) => {
     }
     return s[num];
 }
+
 console.log(getSymbol('The members', 4));
 console.log(getSymbol('type can in', 1));
 console.log(getSymbol('an error', 20));
 
 const removeDigit = (num) => {
     const str = String(num);
-    const secondDigit = str[1];
+    const secondDigit = str[2];
     const firstDigit = str[0];
     
     return parseInt(firstDigit + secondDigit);
 }
-    
+
 console.log(removeDigit(208));
 console.log(removeDigit(109));
 console.log(removeDigit(940));
+
+const isSquare = () => {
+    return
+}
+
+const numberLength = () => {
+    return
+}
+
+const flipOver = () => {
+    return
+}
+
+export {getSymbol, removeDigit}
